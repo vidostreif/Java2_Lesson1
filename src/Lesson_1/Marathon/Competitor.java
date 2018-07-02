@@ -72,16 +72,5 @@ class Animal implements Competitor {
     }
 }
 
-class Cat extends Animal {
 
-    public Cat(String name) {
-        super("Кот", name, 200,10,5);
-    }
-}
 
-class Dog extends Animal {
-
-    public Dog(String name) {
-        super("Пес", name, 500,5,10);
-    }
-}
